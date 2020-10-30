@@ -16,7 +16,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: docker-registry.sadaiyer.com:5000/myweb:1
+      - image: docker-registry.sadaiyer.com:5000/myweb:13
         imagePullPolicy: Always
         name: myweb
 
